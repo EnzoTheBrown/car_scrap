@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+datasets/*
+.idea
+*.swp
+chromedriver_win32
+.aws/
+.env
+settings.py
+*.csv
+*.txt
+*.json
+materials
