@@ -1,0 +1,62 @@
+version: '3'
+
+services:
+  carwatch_0:
+    image: carwatch
+    environment:
+      - INDEX=0
+    env_file:
+      - .env
+    volumes:
+      - ./scrapping:/app/scrapping
+      - ./materials:/app/materials
+
+  carwatch_1:
+    image: carwatch
+    environment:
+      - INDEX=1
+    env_file:
+      - .env
+    volumes:
+      - ./scrapping:/app/scrapping
+      - ./materials:/app/materials
+
+  carwatch_2:
+    image: carwatch
+    environment:
+      - INDEX=2
+    env_file:
+      - .env
+    volumes:
+      - ./scrapping:/app/scrapping
+      - ./materials:/app/materials
+
+  carwatch_3:
+    image: carwatch
+    environment:
+      - INDEX=3
+    env_file:
+      - .env
+    volumes:
+      - ./scrapping:/app/scrapping
+      - ./materials:/app/materials
+
+  carwatch_4:
+    image: carwatch
+    environment:
+      - INDEX=4
+    env_file:
+      - .env
+    volumes:
+      - ./scrapping:/app/scrapping
+      - ./materials:/app/materials
+
+  carwatch_5:
+    image: carwatch
+    environment:
+      - INDEX=5
+    env_file:
+      - .env
+    volumes:
+      - ./scrapping:/app/scrapping
+      - ./materials:/app/materials
